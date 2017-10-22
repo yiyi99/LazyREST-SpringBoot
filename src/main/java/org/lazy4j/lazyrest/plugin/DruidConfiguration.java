@@ -12,6 +12,11 @@ import org.springframework.context.annotation.Configuration;
 
 import javax.sql.DataSource;
 
+/**
+ * @Author：Melon
+ * @Date：2017/10/19
+ * @Time：下午10:33
+ */
 @Configuration
 public class DruidConfiguration {
 

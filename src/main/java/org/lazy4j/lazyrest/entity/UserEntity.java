@@ -8,7 +8,11 @@ import org.hibernate.validator.constraints.NotEmpty;
 
 import javax.persistence.*;
 import javax.validation.constraints.Pattern;
-
+/**
+ * @Author：Melon
+ * @Date：2017/10/19
+ * @Time：下午10:33
+ */
 @Data
 @Entity
 @Table(name = "t_user")

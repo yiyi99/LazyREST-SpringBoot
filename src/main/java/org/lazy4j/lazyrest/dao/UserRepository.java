@@ -6,7 +6,14 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 
 import java.io.Serializable;
 
+/**
+ * @Author：Melon
+ * @Date：2017/10/19
+ * @Time：下午10:33
+ */
 public interface UserRepository extends JpaRepository<UserEntity, Long>,
         JpaSpecificationExecutor<UserEntity>,
         Serializable {
+
+     UserEntity findByUsername(String username);
 }

@@ -6,9 +6,14 @@ import javax.servlet.*;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+/**
+ * @Author：Melon
+ * @Date：2017/10/19
+ * @Time：下午10:33
+ */
 @Component
 public class CORSFilter implements Filter {
-    
+
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
 
